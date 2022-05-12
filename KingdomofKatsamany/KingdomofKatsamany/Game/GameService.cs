@@ -13,11 +13,15 @@ namespace KingdomofKatsamany
             adventureService = AdventureService;
             characterService = CharacterService;
         }
+                
+        public void BeforeStartGame(GameService gameService)
+        {
+            Gui.CharacterName(gameService);                        
+        }
 
         public void StartGame()
         {
-            Gui.ClassChoice();            
-            /*var initialAdventure = adventureService.GetInitialAdventure();
+            var initialAdventure = adventureService.GetInitialAdventure();
             var initialCharacter = characterService.LoadInitialCharacter();
 
             Console.WriteLine($"Adventure : {initialAdventure.Title}");
@@ -25,7 +29,6 @@ namespace KingdomofKatsamany
 
             Console.WriteLine($"Character Name : {initialCharacter.Name}");
             Console.WriteLine($"Level : {initialCharacter.Level}");
-            */
         }
     }
 }

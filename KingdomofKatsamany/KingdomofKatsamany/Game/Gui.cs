@@ -59,21 +59,7 @@ namespace KingdomofKatsamany
             Console.BackgroundColor = default;
             Console.ForegroundColor = ConsoleColor.White;
 
-        }
-
-        /*public static void Menu(GameService gameService)
-        {
-            Console.WriteLine();
-            MainMenuOptions();
-            var inputValid = false;
-
-            
-            Console.ReadKey();
-            Console.BackgroundColor = default;
-            Console.ForegroundColor = ConsoleColor.White;
-
-            Console.Clear();
-        }*/
+        }                
 
         public static void MainMenu(GameService gameService)
         {
@@ -86,7 +72,7 @@ namespace KingdomofKatsamany
                 switch (Console.ReadLine().ToUpper())
                 {
                     case "S":
-                        gameService.StartGame();
+                        gameService.BeforeStartGame(gameService);
                         break;
 
                     case "L":
@@ -120,8 +106,19 @@ namespace KingdomofKatsamany
             Console.WriteLine("(L)oad a game");
             Console.WriteLine("(O)ptions");
         }
+        public static void CharacterName(GameService gameService)
+        {
+            Console.WriteLine("Good Job! Give your character a name: ");
+            string characterName = Console.ReadLine();
+            Console.WriteLine($"Ok! {characterName} seems to be a good name.");
+          
+            
+            
+            Console.ReadKey();
+            ClassChoice(gameService);
+        }
 
-        public static void ClassChoice()
+        public static void ClassChoice(GameService gameService)
         {
             Console.WriteLine();
             ClassChoiceOptions();
@@ -132,23 +129,30 @@ namespace KingdomofKatsamany
                 switch (Console.ReadLine().ToUpper())
                 {
                     case "W":
-                        Console.WriteLine("You chose Warrior");
+                        Console.WriteLine("You chose Warrior.");
+                        Console.WriteLine(" ");
+                        gameService.StartGame();
                         break;
 
                     case "M":
-                        Console.WriteLine("You chose Mage");
+                        Console.WriteLine("You chose Mage.");
+                        Console.WriteLine(" ");
+                        gameService.StartGame();
                         break;
 
                     case "R":
-                        Console.WriteLine("You chose Rogue");
+                        Console.WriteLine("You chose Rogue.");
+                        Console.WriteLine(" ");
+                        gameService.StartGame();
                         break;
 
                     default:
                         Console.WriteLine("umm... you didnt pick the right letter." +
                                            "try again");
-                        ClassChoice();
+                        ClassChoice(gameService);
                         inputValid = false;
                         break;
+                                                
                 }
             }
 
@@ -159,6 +163,7 @@ namespace KingdomofKatsamany
             Console.WriteLine("(W)arrior");
             Console.WriteLine("(M)age");
             Console.WriteLine("(R)ogue");
-        }
+        }                
+
     }      
 }
