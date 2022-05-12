@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sgizXSYEREwOvMwIrlZlonQjpw6lV0nPfsYWQ2TY5jzPs/GmQNkmkcVGvzmIoPazw+R2h5qBik1ODRWhwwC/Ww==",
+  "dgSpecHash": "EcZdOlGtdHUIke7NufrQYMd5/uqgvhJ1w4nKqfuvcRs6N4+80xGIDGoVwudGmLVXnVH0w3PhMcP1F9NQQ5Qtsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KatsamanysKingdom\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\junio\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

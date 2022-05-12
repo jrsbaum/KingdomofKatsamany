@@ -1,0 +1,17 @@
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\bin\Debug\net6.0\KingdomofKatsamany.exe
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\bin\Debug\net6.0\KingdomofKatsamany.deps.json
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\bin\Debug\net6.0\KingdomofKatsamany.runtimeconfig.json
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\bin\Debug\net6.0\KingdomofKatsamany.dll
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\bin\Debug\net6.0\KingdomofKatsamany.pdb
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\KingdomofKatsamany.csproj.AssemblyReference.cache
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\KingdomofKatsamany.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\KingdomofKatsamany.AssemblyInfoInputs.cache
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\KingdomofKatsamany.AssemblyInfo.cs
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\KingdomofKatsamany.csproj.CoreCompileInputs.cache
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\KingdomofKatsamany.dll
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\refint\KingdomofKatsamany.dll
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\KingdomofKatsamany.pdb
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\KingdomofKatsamany.genruntimeconfig.cache
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\ref\KingdomofKatsamany.dll
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\junio\Source\Repos\MyProjects\KingdomofKatsamany\KingdomofKatsamany\KingdomofKatsamany\obj\Debug\net6.0\KingdomofKatsamany.csproj.CopyComplete

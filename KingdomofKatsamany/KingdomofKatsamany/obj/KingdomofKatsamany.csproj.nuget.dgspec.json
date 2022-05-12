@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KatsamanysKingdom\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj": {}
+    "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj": {}
   },
   "projects": {
-    "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KatsamanysKingdom\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj": {
+    "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KatsamanysKingdom\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj",
+        "projectUniqueName": "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj",
         "projectName": "KingdomofKatsamany",
-        "projectPath": "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KatsamanysKingdom\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj",
+        "projectPath": "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany.csproj",
         "packagesPath": "C:\\Users\\junio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KatsamanysKingdom\\KingdomofKatsamany\\KingdomofKatsamany\\obj\\",
+        "outputPath": "C:\\Users\\junio\\Source\\Repos\\MyProjects\\KingdomofKatsamany\\KingdomofKatsamany\\KingdomofKatsamany\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
