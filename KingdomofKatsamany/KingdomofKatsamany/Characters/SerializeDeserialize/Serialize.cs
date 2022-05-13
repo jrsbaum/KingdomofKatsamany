@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace KingdomofKatsamany.Characters.SerializeDeserialize
 {
-    public class Serialize
+    class Serialize
     {
+        
     }
 }

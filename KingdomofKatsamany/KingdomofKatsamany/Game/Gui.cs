@@ -11,7 +11,7 @@ namespace KingdomofKatsamany
         static public void Presenting()
         {
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Welcome to Katsamany`s Kingdom!");
+            Console.WriteLine("Welcome to Kingdom of Katsamany!");
             Console.ReadKey();
             Console.WriteLine("This is a Console RPG made to improve " +
                               "and show my skills in .NET development.");
@@ -114,7 +114,7 @@ namespace KingdomofKatsamany
           
             
             
-            Console.ReadKey();
+            Console.WriteLine();
             ClassChoice(gameService);
         }
 
