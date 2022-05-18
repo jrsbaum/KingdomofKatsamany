@@ -1,7 +1,12 @@
-﻿namespace KingdomofKatsamany.Characters.SerializeDeserialize
+﻿using KingdomofKatsamany.Characters.SerializeDeserialize;
+
+namespace KingdomofKatsamany.Characters.SerializeDeserialize
 {
-    class Deserialize
-    {
-        
+    static class Deserialize
+    {        
+        public static void Teste()
+        {  
+            Console.WriteLine(characterName);         
+        } 
     }
 }

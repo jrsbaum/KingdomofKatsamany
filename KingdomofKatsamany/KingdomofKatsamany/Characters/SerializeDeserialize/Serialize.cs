@@ -1,14 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
-
-namespace KingdomofKatsamany.Characters.SerializeDeserialize
+﻿namespace KingdomofKatsamany.Characters.SerializeDeserialize
 {
-    class Serialize
+    static class Serialize
     {
-        
+        public static string? NewCharacter()
+        {
+            Console.WriteLine("Good Job! Give your character a name: ");
+            Console.WriteLine();
+            
+            var characterName = ;
+
+            while (!characterName)
+            {                
+                var characterName = Console.ReadLine();
+                Console.WriteLine($"Ok! {characterName} seems to be a good name.");
+
+                Gui.ClassChoice();
+            return characterName;
+
+        }
     }
+
 }

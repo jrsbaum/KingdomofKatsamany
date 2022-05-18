@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using KingdomofKatsamany.Characters.SerializeDeserialize;
 
 namespace KingdomofKatsamany
 {
     class Gui
     {
+        
         static public void Presenting()
         {
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -36,6 +33,7 @@ namespace KingdomofKatsamany
             Console.Clear();
 
         }
+                
         public static void MakeTitle()
         {
             Console.BackgroundColor = ConsoleColor.White;
@@ -61,7 +59,7 @@ namespace KingdomofKatsamany
 
         }                
 
-        public static void MainMenu(GameService gameService)
+        public static void MainMenu( )
         {
             Console.WriteLine();
             MainMenuOptions();
@@ -72,7 +70,7 @@ namespace KingdomofKatsamany
                 switch (Console.ReadLine().ToUpper())
                 {
                     case "S":
-                        gameService.BeforeStartGame(gameService);
+                        GameService.BeforeStartGame();
                         break;
 
                     case "L":
@@ -87,7 +85,7 @@ namespace KingdomofKatsamany
                     default:
                         Console.WriteLine("umm... you didnt pick the right letter." +
                                            "try again");
-                        MainMenu(gameService);
+                        MainMenu();
                         inputValid = false;
                         break;
                 }
@@ -106,19 +104,12 @@ namespace KingdomofKatsamany
             Console.WriteLine("(L)oad a game");
             Console.WriteLine("(O)ptions");
         }
-        public static void CharacterName(GameService gameService)
-        {
-            Console.WriteLine("Good Job! Give your character a name: ");
-            string characterName = Console.ReadLine();
-            Console.WriteLine($"Ok! {characterName} seems to be a good name.");
-          
-            
-            
-            Console.WriteLine();
-            ClassChoice(gameService);
+        public static void CharacterName()
+        {                      
+            Serialize.NewCharacter();             
         }
 
-        public static void ClassChoice(GameService gameService)
+        public static void ClassChoice()
         {
             Console.WriteLine();
             ClassChoiceOptions();
@@ -131,25 +122,25 @@ namespace KingdomofKatsamany
                     case "W":
                         Console.WriteLine("You chose Warrior.");
                         Console.WriteLine(" ");
-                        gameService.StartGame();
+                        GameService.StartGame();
                         break;
 
                     case "M":
                         Console.WriteLine("You chose Mage.");
                         Console.WriteLine(" ");
-                        gameService.StartGame();
+                        GameService.StartGame();
                         break;
 
                     case "R":
                         Console.WriteLine("You chose Rogue.");
                         Console.WriteLine(" ");
-                        gameService.StartGame();
+                        GameService.StartGame();
                         break;
 
                     default:
                         Console.WriteLine("umm... you didnt pick the right letter." +
                                            "try again");
-                        ClassChoice(gameService);
+                        ClassChoice();
                         inputValid = false;
                         break;
                                                 

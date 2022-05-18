@@ -1,23 +1,20 @@
-﻿using KatsamanysKingdom.Entities;
-using KingdomofKatsamany.Adventures;
+﻿using KingdomofKatsamany.Characters.SerializeDeserialize;
 
 namespace KingdomofKatsamany
 {
     class Program
-    {
-        private static AdventureService adventureService = new AdventureService();
-        private static CharacterService characterService = new CharacterService();
-        private static GameService gameService = new GameService(adventureService, characterService);
+    {         
         static void Main(string[] args)
-
         {
 
             Console.ReadKey();
-
+                        
             Gui.Presenting();
             Gui.MakeTitle();
-            Gui.MainMenu(gameService);
-            
+            Gui.MainMenu();
+            Gui.ClassChoice();
+            Deserialize.Teste();
+
         }
     }
 }

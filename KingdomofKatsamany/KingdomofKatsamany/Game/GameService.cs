@@ -1,34 +1,28 @@
-﻿using KingdomofKatsamany.Adventures.Interfaces;
-using KingdomofKatsamany.Entities.Interfaces;
+﻿using KingdomofKatsamany.Characters.SerializeDeserialize;
+
 
 namespace KingdomofKatsamany
 {
     public class GameService
-    {
-        private IAdventureService adventureService;
-        private ICharacterService characterService;
-
-        public GameService(IAdventureService AdventureService, ICharacterService CharacterService)
+    {               
+        public static void BeforeStartGame()
         {
-            adventureService = AdventureService;
-            characterService = CharacterService;
-        }
-                
-        public void BeforeStartGame(GameService gameService)
-        {
-            Gui.CharacterName(gameService);                        
+            Gui.CharacterName();                        
         }
 
-        public void StartGame()
+        public static void StartGame()
         {
-            var initialAdventure = adventureService.GetInitialAdventure();
+            Deserialize.Teste();
+           
+
+            /*var initialAdventure = adventureService.GetInitialAdventure();
             var initialCharacter = characterService.LoadInitialCharacter();
 
             Console.WriteLine($"Adventure : {initialAdventure.Title}");
             Console.WriteLine($"Description : {initialAdventure.Description}");
 
             Console.WriteLine($"Character Name : {initialCharacter.Name}");
-            Console.WriteLine($"Level : {initialCharacter.Level}");
+            Console.WriteLine($"Level : {initialCharacter.Level}");*/
         }
     }
 }
