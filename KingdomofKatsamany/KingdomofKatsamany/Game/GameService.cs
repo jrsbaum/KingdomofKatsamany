@@ -4,16 +4,15 @@
 namespace KingdomofKatsamany
 {
     public class GameService
-    {               
+    {
         public static void BeforeStartGame()
         {
-            Gui.CharacterName();                        
+            Name.InputName();
         }
 
         public static void StartGame()
         {
-            Deserialize.Teste();
-           
+            
 
             /*var initialAdventure = adventureService.GetInitialAdventure();
             var initialCharacter = characterService.LoadInitialCharacter();

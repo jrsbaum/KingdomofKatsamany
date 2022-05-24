@@ -13,7 +13,7 @@ namespace KingdomofKatsamany
             Gui.MakeTitle();
             Gui.MainMenu();
             Gui.ClassChoice();
-            Deserialize.Teste();
+            Name.InputName();
 
         }
     }

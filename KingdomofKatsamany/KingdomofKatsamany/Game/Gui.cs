@@ -4,7 +4,6 @@ namespace KingdomofKatsamany
 {
     class Gui
     {
-        
         static public void Presenting()
         {
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -33,7 +32,7 @@ namespace KingdomofKatsamany
             Console.Clear();
 
         }
-                
+
         public static void MakeTitle()
         {
             Console.BackgroundColor = ConsoleColor.White;
@@ -57,9 +56,9 @@ namespace KingdomofKatsamany
             Console.BackgroundColor = default;
             Console.ForegroundColor = ConsoleColor.White;
 
-        }                
+        }
 
-        public static void MainMenu( )
+        public static void MainMenu()
         {
             Console.WriteLine();
             MainMenuOptions();
@@ -104,9 +103,9 @@ namespace KingdomofKatsamany
             Console.WriteLine("(L)oad a game");
             Console.WriteLine("(O)ptions");
         }
-        public static void CharacterName()
-        {                      
-            Serialize.NewCharacter();             
+        public static void InicioNome()
+        {
+
         }
 
         public static void ClassChoice()
@@ -143,7 +142,7 @@ namespace KingdomofKatsamany
                         ClassChoice();
                         inputValid = false;
                         break;
-                                                
+
                 }
             }
 
@@ -154,7 +153,7 @@ namespace KingdomofKatsamany
             Console.WriteLine("(W)arrior");
             Console.WriteLine("(M)age");
             Console.WriteLine("(R)ogue");
-        }                
+        }
 
-    }      
+    }
 }
