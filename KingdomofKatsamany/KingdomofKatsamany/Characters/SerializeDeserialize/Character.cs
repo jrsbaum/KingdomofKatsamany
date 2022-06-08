@@ -1,19 +1,24 @@
 ﻿namespace KingdomofKatsamany.Characters.SerializeDeserialize
 {
-    public class Character
+    class Character
     {
-        private string _characterName;
-                
+        private string _characterName;        
+        public int LifePoints = 10;
+        public int ManaPoints = 12;
 
-        public string getCharacterName()
+        public Character(string characterName)
         {
-            return _characterName;
+            _characterName = characterName;
+        }
+        public Character(int lifePoints, int manaPoints)
+        {
+            LifePoints = lifePoints;
+            ManaPoints = manaPoints;
         }
 
-        public void setCharacterName(string CharacterName)
-        
+        public override string ToString()
         {
-            this._characterName = CharacterName;
+            return "Name: " + _characterName + ", Vida: " + LifePoints + ", Mana: " + ManaPoints;
         }
 
     }

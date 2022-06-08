@@ -2,32 +2,36 @@
 {
     public class Name
     {        
-        public static void InputName()
-        {
-            Character InputName = new Character();
+        public static void CharacterName()
+        {            
+            Console.WriteLine("Give your character a name: ");                        
+            string characterName = (Console.ReadLine());
 
-            Console.WriteLine("Give your character a name: ");
-            
-            InputName.setCharacterName(Console.ReadLine());
-            var result = InputName.getCharacterName();
-            if(result == string.Empty)
+            if (characterName == string.Empty | characterName == " ")
             {
                 Console.WriteLine("Empty name. Please, type again");
-                Name.InputName();
+                CharacterName();
             }
-            if (result.All(char.IsDigit))
+            if (characterName.All(char.IsDigit))
             {
                 Console.WriteLine("The name can't be a number. Please, type again");
-                Name.InputName();
+                CharacterName();
             }
             else
             {
-                Console.WriteLine($"The name chosen was {result}.");
-                Console.ReadKey();
-                Console.Clear();
-                Gui.ClassChoice();
+                Thread.Sleep(20);
             }
 
-        } 
+            Character c = new Character(characterName);
+            Console.WriteLine($"The name chosen was: ~{characterName}~.");
+            Thread.Sleep(2000);
+
+            Console.Clear();
+            Class.ClassChoice();
+
+
+
+
+        }
     }
 }

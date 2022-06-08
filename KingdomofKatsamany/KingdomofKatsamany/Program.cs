@@ -6,14 +6,12 @@ namespace KingdomofKatsamany
     {         
         static void Main(string[] args)
         {
-
-            Console.ReadKey();
                         
+            Thread.Sleep(1500);
+
             Gui.Presenting();
             Gui.MakeTitle();
             Gui.MainMenu();
-            Gui.ClassChoice();
-            Name.InputName();
 
         }
     }
