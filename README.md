@@ -1,2 +1,2 @@
 # KingdomofKatsamany
-## Game project to improve and show my skills in .net development.
+## This is a Console RPG made to improve and show you my skills in .NET development.
